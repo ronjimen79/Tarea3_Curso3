@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.ronicode.tarea3_curso3.ListaMascotas"
+    >
+
+    <item
+        android:id="@+id/itmenu_favorito"
+        android:icon="@drawable/favorito"
+        android:title="@string/opcion"
+        app:showAsAction="ifRoom|withText"
+        >
+
+    </item>
+    <item
+        android:id="@+id/itmisfavoritos"
+        android:title="@string/mejores"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/itSalir"
+        android:title="@string/salir"
+        android:orderInCategory="200"
+        android:showAsAction="never"
+        >
+
+    </item>
+
+</menu>
